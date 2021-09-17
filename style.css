@@ -1,22 +1,27 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: 'Josefin Sans', sans-serif;
   color: white;
   background-image: url("gallery.jpg");
-  background-size: 1000px 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
 }
 
 
 h1 {
-  color:rgb(0,0,0);
-  border: 3px solid purple;
-  padding: 20px
+  text-align: center;
+  color:black;
+  text-shadow: 2px 2px gray;
+  padding: 1000px
   letter-spacing: 10px;
 }
 
 p.ex {
   color: rgb(0,0,255);
+  text-align: center;
 }
 
 canvas {
